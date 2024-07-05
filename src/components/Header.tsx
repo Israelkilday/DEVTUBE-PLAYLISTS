@@ -1,4 +1,4 @@
-const Header = () => {
+export function Header() {
   return (
     <div>
       <div className="flex flex-col gap-1">
@@ -10,6 +10,6 @@ const Header = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Header;

@@ -1,6 +1,6 @@
 import ReactPlayer from "react-player";
 
-const Video = () => {
+export function Video() {
   return (
     <div className="aspect-video w-full bg-zinc-950">
       <ReactPlayer
@@ -11,6 +11,6 @@ const Video = () => {
       />
     </div>
   );
-};
+}
 
 export default Video;
