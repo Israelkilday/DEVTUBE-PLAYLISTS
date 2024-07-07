@@ -22,9 +22,21 @@ export function Player() {
           </div>
 
           <aside className="absolute bottom-0 right-0 top-0 w-80 divide-y-2 divide-zinc-900 overflow-y-scroll border-l border-zinc-800 bg-zinc-900 scrollbar-thin scrollbar-track-zinc-950 scrollbar-thumb-zinc-800">
-            <Module />
-            <Module />
-            <Module />
+            <Module
+              moduleIndex={0}
+              title="Desvendando o Redux"
+              amountOfLesson={3}
+            />
+            <Module
+              moduleIndex={1}
+              title="Desvendando o Redux"
+              amountOfLesson={3}
+            />
+            <Module
+              moduleIndex={2}
+              title="Desvendando o Redux"
+              amountOfLesson={3}
+            />
           </aside>
         </main>
       </div>

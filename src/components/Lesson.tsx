@@ -1,11 +1,18 @@
 import { Video } from "lucide-react";
 
-export function Lesson() {
+interface LessonProps {
+  title: string;
+  duration: string;
+}
+
+export function Lesson({ title, duration }: LessonProps) {
   return (
     <button className="items flex gap-3 text-sm text-zinc-400">
       <Video className="h-4 w-4 text-zinc-500" />
-      <span>Fundamentos do Redux</span>
-      <span className="ml-auto font-mono text-base text-zinc-500">09:13</span>
+      <span>{title}</span>
+      <span className="ml-auto font-mono text-base text-zinc-500">
+        {duration}
+      </span>
     </button>
   );
 }
