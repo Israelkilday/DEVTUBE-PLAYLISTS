@@ -2,7 +2,7 @@ import ReactPlayer from "react-player";
 
 export function Video() {
   return (
-    <div className="aspect-video w-full bg-zinc-950">
+    <div className="aspect-video h-auto w-full bg-zinc-950 object-contain">
       <ReactPlayer
         width="100%"
         height="100%"

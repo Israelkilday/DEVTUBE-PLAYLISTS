@@ -5,33 +5,35 @@ import { Module } from "../components/Module";
 
 export function Player() {
   return (
-    <div className="flex h-screen items-center justify-center bg-zinc-950 text-zinc-50">
-      <div className="flex w-[1100px] flex-col gap-6">
-        <div className="flex items-center justify-between">
+    <div className="h-screen items-center justify-center overflow-x-hidden bg-zinc-950 text-zinc-50 lg:flex">
+      <div className="flex flex-col gap-6 lg:w-[1100px]">
+        <div className="items-center justify-between p-5 lg:flex">
           <Header />
 
-          <button className="flex items-center gap-2 rounded bg-violet-500 px-3 py-2 text-sm font-medium text-white duration-200 hover:bg-violet-600">
+          <button className="mt-5 flex items-center gap-2 rounded bg-violet-500 px-3 py-2 text-sm font-medium text-white duration-200 hover:bg-violet-600">
             <MessageCircle className="h-4 w-4" />
             Deixar Feedback
           </button>
         </div>
 
-        <main className="relative flex overflow-hidden rounded-lg border border-zinc-800 bg-zinc-900 pr-80 shadow">
-          <div className="flex-1">
+        <main className="overflow-hidden rounded-lg border border-zinc-800 bg-zinc-900 shadow md:flex md:pr-[279px] lg:relative lg:pr-80">
+          <div className="w-full lg:flex-1">
             <Video />
           </div>
 
-          <aside className="absolute bottom-0 right-0 top-0 w-80 divide-y-2 divide-zinc-900 overflow-y-scroll border-l border-zinc-800 bg-zinc-900 scrollbar-thin scrollbar-track-zinc-950 scrollbar-thumb-zinc-800">
+          <aside className="bottom-0 right-0 top-0 divide-y-2 divide-zinc-900 overflow-y-scroll border-l border-zinc-800 bg-zinc-900 scrollbar-thin scrollbar-track-zinc-950 scrollbar-thumb-zinc-800 md:absolute lg:w-80">
             <Module
               moduleIndex={0}
               title="Desvendando o Redux"
               amountOfLesson={3}
             />
+
             <Module
               moduleIndex={1}
               title="Desvendando o Redux"
               amountOfLesson={3}
             />
+
             <Module
               moduleIndex={2}
               title="Desvendando o Redux"
