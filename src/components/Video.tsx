@@ -1,8 +1,11 @@
 import ReactPlayer from "react-player";
 import { useAppSelector } from "../store";
+import { useDispatch } from "react-redux";
+import { next } from "../store/slices/player";
 
 export function Video() {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const dispatch = useDispatch();
+
   const lesson = useAppSelector((state) => {
     const { currentModuleIndex, currentLessonIndex } = state.player;
 
@@ -13,12 +16,18 @@ export function Video() {
     return currentLesson;
   });
 
+  function handlePlayNext() {
+    dispatch(next());
+  }
+
   return (
     <div className="aspect-video h-auto w-full bg-zinc-950 object-contain">
       <ReactPlayer
         width="100%"
         height="100%"
         controls
+        playing
+        onEnded={handlePlayNext}
         url={`https://www.youtube.com/watch?v=${lesson.id}`}
       />
     </div>
