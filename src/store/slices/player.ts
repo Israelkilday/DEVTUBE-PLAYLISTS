@@ -10,7 +10,7 @@ const playerSlice = createSlice({
           title: "Iniciando com React",
           lessons: [
             { id: "pVichgT6pyo", title: "teste", duration: "13:45" },
-            { id: "pVichgT6pyo", title: "teste", duration: "13:45" },
+            { id: "3Bl86gQTEPY&t=361s", title: "teste2", duration: "34:89" },
             { id: "pVichgT6pyo", title: "teste", duration: "13:45" },
             { id: "pVichgT6pyo", title: "teste", duration: "13:45" },
             { id: "pVichgT6pyo", title: "teste", duration: "13:45" },
@@ -29,8 +29,16 @@ const playerSlice = createSlice({
         },
       ],
     },
+    currentModuleIndex: 0,
+    currentLessonIndex: 0,
   },
-  reducers: {},
+  reducers: {
+    play: (state, action) => {
+      state.currentModuleIndex = action.payload[0];
+      state.currentLessonIndex = action.payload[1];
+    },
+  },
 });
 
 export const player = playerSlice.reducer;
+export const { play } = playerSlice.actions;
