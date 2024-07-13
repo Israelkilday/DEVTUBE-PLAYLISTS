@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { player as reducer, play, next } from "./player";
 
 const exempleState = {
-  course: {
+  courses: {
     modules: [
       {
         id: "1",

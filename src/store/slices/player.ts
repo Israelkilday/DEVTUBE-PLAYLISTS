@@ -4,7 +4,7 @@ import { useAppSelector } from "..";
 export const playerSlice = createSlice({
   name: "player",
   initialState: {
-    course: {
+    courses: {
       modules: [
         {
           id: "1",
@@ -41,13 +41,15 @@ export const playerSlice = createSlice({
     next: (state) => {
       const nextLessonIndex = state.currentLessonIndex + 1;
       const nextLesson =
-        state.course.modules[state.currentModuleIndex].lessons[nextLessonIndex];
+        state.courses.modules[state.currentModuleIndex].lessons[
+          nextLessonIndex
+        ];
 
       if (nextLesson) {
         state.currentLessonIndex = nextLessonIndex;
       } else {
         const nextModuleIndex = state.currentModuleIndex + 1;
-        const nextModule = state.course.modules[nextModuleIndex];
+        const nextModule = state.courses.modules[nextModuleIndex];
 
         if (nextModule) {
           state.currentModuleIndex = nextModuleIndex;
@@ -65,7 +67,7 @@ export const useCurrentLesson = () => {
   return useAppSelector((state) => {
     const { currentModuleIndex, currentLessonIndex } = state.player;
 
-    const currentModule = state.player.course.modules[currentModuleIndex];
+    const currentModule = state.player.courses.modules[currentModuleIndex];
     const currentLesson = currentModule.lessons[currentLessonIndex];
 
     return { currentModule, currentLesson };
