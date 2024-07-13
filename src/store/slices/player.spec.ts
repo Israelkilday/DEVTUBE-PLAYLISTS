@@ -1,11 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { player as reducer, play, next } from "./player";
+import { player as reducer, play, next, PlayerState } from "./player";
 
-const exempleState = {
+const exempleState: PlayerState = {
   courses: {
+    id: 1,
     modules: [
       {
-        id: "1",
+        id: 1,
         title: "Iniciando com React",
         lessons: [
           { id: "pVichgT6pyo", title: "teste", duration: "13:45" },
@@ -13,7 +14,7 @@ const exempleState = {
         ],
       },
       {
-        id: "2",
+        id: 2,
         title: "Estrutura da aplicação",
         lessons: [
           { id: "pVichgT6pyo", title: "teste", duration: "13:45" },

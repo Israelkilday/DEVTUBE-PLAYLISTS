@@ -11,6 +11,10 @@ export function Video() {
     dispatch(next());
   }
 
+  if (!currentLesson) {
+    return null;
+  }
+
   return (
     <div className="aspect-video h-auto w-full bg-zinc-950 object-contain">
       <ReactPlayer
