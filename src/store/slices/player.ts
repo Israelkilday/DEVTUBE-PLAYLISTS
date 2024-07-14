@@ -24,12 +24,14 @@ export interface PlayerState {
   courses: Courses | null;
   currentModuleIndex: number;
   currentLessonIndex: number;
+  isLoading: boolean;
 }
 
 const initialState: PlayerState = {
   courses: null,
   currentModuleIndex: 0,
   currentLessonIndex: 0,
+  isLoading: true,
 };
 
 // eslint-disable-next-line @typescript-eslint/ban-types
@@ -71,8 +73,13 @@ export const playerSlice = createSlice({
     },
   },
   extraReducers(builder) {
+    builder.addCase(loadCource.pending, (state) => {
+      state.isLoading = true;
+    });
+
     builder.addCase(loadCource.fulfilled, (state, action) => {
       state.courses = action.payload;
+      state.isLoading = false;
     });
   },
 });
