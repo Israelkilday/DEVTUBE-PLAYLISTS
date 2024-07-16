@@ -1,6 +1,6 @@
 import axios from "axios";
+// baseURL: "https://video-player-mu-murex.vercel.app/",
 
 export const api = axios.create({
-  // baseURL: "https://video-player-mu-murex.vercel.app/",
-  baseURL: "http://localhost:3000",
+  baseURL: "http://localhost:3000/",
 });
