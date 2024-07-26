@@ -1,3 +1,4 @@
+// import { MessageCircle } from "lucide-react";
 import { Header } from "../components/Header";
 import { Video } from "../components/Video";
 import { Module } from "../components/Module";
@@ -25,7 +26,7 @@ export function Player() {
   }, [currentLesson]);
 
   return (
-    <div className="h-screen items-center justify-center overflow-x-hidden bg-zinc-950 text-zinc-50 lg:flex">
+    <div className="h-screen items-center justify-center bg-zinc-950 text-zinc-50 lg:flex">
       <div className="flex flex-col gap-1 lg:w-[1100px]">
         <div className="px-5">
           <h1 className="Text Shine boder-[1px] inline-flex w-full animate-shine border-b border-zinc-500 bg-[linear-gradient(110deg,#939393,45%,#1e2631,55%,#939393)] bg-[length:200%_100%] bg-clip-text pb-4 pt-6 font-montserrat text-4xl font-medium text-transparent">
@@ -53,12 +54,12 @@ export function Player() {
           </button>
         </div>
 
-        <main className="overflow-hidden rounded-lg border border-zinc-800 bg-zinc-900 shadow md:flex md:pr-[279px] lg:relative lg:pr-80">
+        <main className="overflow-hidden rounded-lg border border-zinc-800 bg-zinc-900 shadow md:relative md:mx-5 md:flex md:h-80 lg:h-auto lg:pr-80">
           <div className="w-full lg:flex-1">
             <Video />
           </div>
 
-          <aside className="bottom-0 right-0 top-0 divide-y-2 divide-zinc-900 overflow-y-scroll border-l border-zinc-800 bg-zinc-900 scrollbar-thin scrollbar-track-zinc-950 scrollbar-thumb-zinc-800 md:absolute lg:w-80">
+          <aside className="bottom-0 right-0 top-0 divide-y-2 divide-zinc-900 overflow-hidden overflow-y-scroll border-l border-zinc-800 bg-zinc-900 scrollbar-thin scrollbar-track-zinc-950 scrollbar-thumb-zinc-800 md:absolute md:w-72 lg:w-80">
             {modules &&
               modules.map((module, index) => {
                 return (

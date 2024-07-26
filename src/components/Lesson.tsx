@@ -13,9 +13,16 @@ export function Lesson({
   onPlay,
   isCurrent = false,
 }: LessonProps) {
+  const handleclick = () => {
+    window.scrollTo(0, 0);
+    onPlay();
+  };
+
+  console.log(handleclick);
+
   return (
     <button
-      onClick={onPlay}
+      onClick={handleclick}
       data-active={isCurrent}
       disabled={isCurrent}
       className="flex items-center gap-3 text-sm text-zinc-400 data-[active=true]:text-emerald-400 enabled:hover:text-zinc-100"
