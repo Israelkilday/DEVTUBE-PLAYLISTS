@@ -6,8 +6,12 @@ export default {
   content: ["./src/**/*.tsx"],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+      },
       animation: {
-        shine: "shine 2s linear infinite",
+        shine: "shine 3s linear infinite",
       },
       keyframes: {
         shine: {

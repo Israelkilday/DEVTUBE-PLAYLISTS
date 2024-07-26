@@ -13,10 +13,11 @@ export function Header() {
   return (
     <div>
       <div className="flex flex-col gap-1">
-        <h2 className="text-2xl">{currentLesson?.title}</h2>
+        <h2 className="text-2xl text-emerald-400">{currentLesson?.title}</h2>
 
-        <span className="text-sm text-zinc-400">
-          Playlist: "{currentModule?.title}"
+        <span className="pb-3 text-sm">
+          PLAYLIST:{" "}
+          <span className="text-zinc-400">"{currentModule?.title}"</span>
         </span>
       </div>
     </div>

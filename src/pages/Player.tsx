@@ -1,4 +1,3 @@
-import { MessageCircle } from "lucide-react";
 import { Header } from "../components/Header";
 import { Video } from "../components/Video";
 import { Module } from "../components/Module";
@@ -29,7 +28,7 @@ export function Player() {
     <div className="h-screen items-center justify-center overflow-x-hidden bg-zinc-950 text-zinc-50 lg:flex">
       <div className="flex flex-col gap-1 lg:w-[1100px]">
         <div className="px-5">
-          <h1 className="Text Shine boder-[1px] inline-flex w-full animate-shine border-b border-zinc-500 bg-[linear-gradient(110deg,#939393,45%,#1e2631,55%,#939393)] bg-[length:200%_100%] bg-clip-text pb-4 pt-6 text-4xl font-medium text-transparent">
+          <h1 className="Text Shine boder-[1px] inline-flex w-full animate-shine border-b border-zinc-500 bg-[linear-gradient(110deg,#939393,45%,#1e2631,55%,#939393)] bg-[length:200%_100%] bg-clip-text pb-4 pt-6 font-montserrat text-4xl font-medium text-transparent">
             DevTube Playlists
           </h1>
         </div>
@@ -37,9 +36,20 @@ export function Player() {
         <div className="items-center justify-between p-5 lg:flex">
           <Header />
 
-          <button className="mt-5 flex items-center gap-2 rounded bg-violet-500 px-3 py-2 text-sm font-medium text-white duration-200 hover:bg-violet-600">
+          {/* <button className="mt-5 flex items-center gap-2 rounded bg-violet-500 px-3 py-2 text-sm font-medium text-white duration-200 hover:bg-violet-600">
             <MessageCircle className="h-4 w-4" />
             Deixar Feedback
+          </button> */}
+
+          <button className="inline-flex animate-shine items-center justify-center rounded-xl border border-neutral-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-4 py-2 text-sm font-medium text-neutral-400 transition-colors">
+            <a
+              href="https://www.linkedin.com/messaging/thread/2-MTVlMDE4NjEtOWVmYS00NmEzLTgyY2MtMGRiZjU2MWNiMTVlXzAxMw==/"
+              download
+              target="blank"
+              rel="noopener noreferrer"
+            >
+              Deixar FeedBack
+            </a>
           </button>
         </div>
 
