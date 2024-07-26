@@ -15,7 +15,7 @@ export function Header() {
       <div className="flex flex-col gap-1">
         <h2 className="text-2xl text-emerald-400">{currentLesson?.title}</h2>
 
-        <span className="pb-3 text-sm">
+        <span className="pb-3 text-base">
           PLAYLIST:{" "}
           <span className="text-zinc-400">"{currentModule?.title}"</span>
         </span>
