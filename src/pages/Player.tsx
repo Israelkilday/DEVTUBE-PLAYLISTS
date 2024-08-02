@@ -5,6 +5,7 @@ import { Module } from "../components/Module";
 import { useAppDispatch, useAppSelector } from "../store";
 import { loadCource, useCurrentLesson } from "../store/slices/player";
 import { useEffect } from "react";
+import Footer from "../components/Footer";
 
 export function Player() {
   const dispatch = useAppDispatch();
@@ -27,7 +28,7 @@ export function Player() {
 
   return (
     <div className="h-screen items-center justify-center bg-zinc-950 text-zinc-50 lg:flex">
-      <div className="flex flex-col gap-1 lg:w-[1100px]">
+      <div className="flex flex-col bg-zinc-950 lg:w-[1100px]">
         <div className="px-5">
           <h1 className="Text Shine boder-[1px] inline-flex w-full animate-shine border-b border-zinc-500 bg-[linear-gradient(110deg,#939393,45%,#1e2631,55%,#939393)] bg-[length:200%_100%] bg-clip-text pb-4 pt-6 font-montserrat text-4xl font-medium text-transparent lg:text-5xl">
             DevTube Playlists
@@ -73,6 +74,7 @@ export function Player() {
               })}
           </aside>
         </main>
+        <Footer />
       </div>
     </div>
   );
