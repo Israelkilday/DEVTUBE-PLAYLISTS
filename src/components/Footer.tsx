@@ -1,7 +1,10 @@
+import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+
 export function Footer() {
   return (
     <footer className="bg-zinc-950 px-5 lg:px-36">
-      <div className="mb-6 py-4 xl:mb-0">
+      <div className="my-6 py-4 xl:mb-0">
         <div className="container mx-auto h-full">
           <div className="h-full items-center justify-between text-left xl:flex">
             <section className="flex h-full w-full flex-col justify-between gap-2 pb-3 lg:flex-row xl:w-auto xl:justify-normal xl:gap-10 xl:pb-0">
@@ -13,7 +16,7 @@ export function Footer() {
                 </p>
               </div>
 
-              <div>
+              <div className="border-b-[1px] border-b-zinc-500 pb-6">
                 <p className="text-neutral-400">
                   <a
                     href="https://portfolioikdev-zeta-nine.vercel.app/"
@@ -21,7 +24,7 @@ export function Footer() {
                     rel="noopener noreferrer"
                   >
                     Desenvolvido por: &lt;/
-                    <span className="brand tracking-widest text-white">
+                    <span className="brand tracking-widest text-white duration-150 hover:text-emerald-400">
                       Israel Kilday
                     </span>
                     &gt;
@@ -30,7 +33,59 @@ export function Footer() {
               </div>
             </section>
 
-            <section> socials</section>
+            <section>
+              <ul className="flex gap-2 pt-4">
+                <li>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=5585986270742"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaWhatsapp className="text-[28px]" />
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=5585986270742"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaWhatsapp className="text-[28px]" />
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=5585986270742"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaWhatsapp className="text-[28px]" />
+                  </a>
+                </li>
+
+                <li>
+                  {/* <a
+                    href="https://linktr.ee/gabriellemedeiros"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <TbBrandLinktree className="text-2xl" />
+                  </a> */}
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.instagram.com/gabriellemedeiros.oficial/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaInstagram className="text-[28px]" />
+                  </a>
+                </li>
+              </ul>
+            </section>
           </div>
         </div>
       </div>
