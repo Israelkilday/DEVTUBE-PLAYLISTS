@@ -1,4 +1,4 @@
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 
 export function Footer() {
@@ -34,14 +34,24 @@ export function Footer() {
             </section>
 
             <section>
-              <ul className="flex gap-2 pt-4">
+              <ul className="flex gap-4 pt-4">
                 <li>
                   <a
-                    href="https://api.whatsapp.com/send?phone=5585986270742"
+                    href="https://www.linkedin.com/in/israeldevfrontend/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaWhatsapp className="text-[28px]" />
+                    <FaLinkedin className="text-[28px] duration-150 hover:text-emerald-400" />
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://github.com/Israelkilday"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGithub className="text-[28px] duration-150 hover:text-emerald-400" />
                   </a>
                 </li>
 
@@ -51,37 +61,17 @@ export function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaWhatsapp className="text-[28px]" />
+                    <FaWhatsapp className="text-[28px] duration-150 hover:text-emerald-400" />
                   </a>
                 </li>
 
                 <li>
                   <a
-                    href="https://api.whatsapp.com/send?phone=5585986270742"
+                    href="https://www.instagram.com/israelkilday/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaWhatsapp className="text-[28px]" />
-                  </a>
-                </li>
-
-                <li>
-                  {/* <a
-                    href="https://linktr.ee/gabriellemedeiros"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <TbBrandLinktree className="text-2xl" />
-                  </a> */}
-                </li>
-
-                <li>
-                  <a
-                    href="https://www.instagram.com/gabriellemedeiros.oficial/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaInstagram className="text-[28px]" />
+                    <FaInstagram className="text-[28px] duration-150 hover:text-emerald-400" />
                   </a>
                 </li>
               </ul>
