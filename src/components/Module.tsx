@@ -120,7 +120,7 @@ export function Module({ title, amountOfLesson, moduleIndex }: ModuleProps) {
 
       <Collapsible.Content
         style={{ maxHeight }}
-        className="transition-max-height overflow-hidden duration-300"
+        className="overflow-hidden transition-all duration-200"
         ref={contentRef}
       >
         <nav className="relative flex flex-col gap-4 p-6">

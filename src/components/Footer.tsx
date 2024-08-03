@@ -3,11 +3,11 @@ import { FaInstagram } from "react-icons/fa6";
 
 export function Footer() {
   return (
-    <footer className="bg-zinc-950 px-5 lg:px-36">
-      <div className="my-6 py-4 xl:mb-0">
+    <footer className="bg-zinc-950 px-5 pb-1 lg:pb-5">
+      <div className="my-7 xl:mb-0">
         <div className="container mx-auto h-full">
           <div className="h-full items-center justify-between text-left xl:flex">
-            <section className="flex h-full w-full flex-col justify-between gap-2 pb-3 lg:flex-row xl:w-auto xl:justify-normal xl:gap-10 xl:pb-0">
+            <section className="flex h-full w-full flex-col justify-between gap-2 pb-3 lg:block lg:flex-row xl:w-auto xl:justify-normal xl:gap-10 xl:pb-0">
               <div className="flex items-center gap-2 text-neutral-400">
                 <p>
                   &copy; {new Date().getFullYear()} DEVTUB PLAYLISTS.{" "}
@@ -16,7 +16,7 @@ export function Footer() {
                 </p>
               </div>
 
-              <div className="border-b-[1px] border-b-zinc-500 pb-6">
+              <div className="border-b-[1px] border-b-zinc-500 pb-6 lg:border-none lg:pb-0">
                 <p className="text-neutral-400">
                   <a
                     href="https://portfolioikdev-zeta-nine.vercel.app/"
