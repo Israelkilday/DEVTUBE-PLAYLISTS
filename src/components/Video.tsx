@@ -14,7 +14,7 @@ export function Video() {
   }
 
   return (
-    <div className="aspect-video h-auto w-full bg-zinc-950 object-contain">
+    <div className="aspect-video h-full w-full bg-zinc-950 object-contain">
       {isCourseLoading ? (
         <div className="flex min-h-full items-center justify-center">
           <Loader className="h-6 w-6 animate-spin text-zinc-400" />
