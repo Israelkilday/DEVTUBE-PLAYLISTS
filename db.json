@@ -13,14 +13,60 @@
               "duration": "1:05:51"
             },
             {
-              "id": "3Bl86gQTEPY&t=361s",
-              "title": "teste2",
-              "duration": "34:89"
+              "id": "6ke0uquFs-c",
+              "title": "Parâmetros e Retorno",
+              "duration": "1:10:53"
             },
-            { "id": "pVichgT6pyo", "title": "teste", "duration": "13:45" },
-            { "id": "pVichgT6pyo", "title": "teste", "duration": "13:45" },
-            { "id": "pVichgT6pyo", "title": "teste", "duration": "13:45" },
-            { "id": "pVichgT6pyo", "title": "teste", "duration": "13:45" }
+            {
+              "id": "70XW0A9Rt38",
+              "title": "Arrays, Objetos e for",
+              "duration": "1:07:10"
+            },
+            {
+              "id": "Ak9GCZUfDTk",
+              "title": "Classes, Construtor e Exception",
+              "duration": "54:19"
+            },
+            {
+              "id": "Z2ZRfCtmMDE",
+              "title": "OO, Métodos e Encapsulamento",
+              "duration": "1:02:36"
+            },
+            {
+              "id": "a5dQUErW7Bg",
+              "title": "Manipulando a DOM",
+              "duration": "1:13:57"
+            },
+            {
+              "id": "zcNW8CjMKfE",
+              "title": "Estilizando elementos com CSS",
+              "duration": "1:08:50"
+            },
+            {
+              "id": "7ljlAJNwyPw",
+              "title": "Componentização",
+              "duration": "1:21:30"
+            },
+            {
+              "id": "LZEYwgD9Pic",
+              "title": "Frontend e Backend",
+              "duration": "58:34"
+            },
+            {
+              "id": "3ijlt3CVg24",
+              "title": "Banco de Dados",
+              "duration": "39:10"
+            },
+            {
+              "id": "qwM1zMXey-A",
+              "title": "Camadas e responsabilidade do backend",
+              "duration": "1:21:34"
+            },
+            {
+              "id": "Xg076JdEFic",
+              "title": "Próximos passos e encerramento",
+              "duration": "1:56:41"
+            }
           ]
         },
         {
