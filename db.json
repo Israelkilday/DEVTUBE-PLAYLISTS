@@ -59,7 +59,7 @@
             },
             {
               "id": "qwM1zMXey-A",
-              "title": "Camadas e responsabilidade do backend",
+              "title": "Camadas e responsabilidade",
               "duration": "1:21:34"
             },
             {
@@ -71,12 +71,69 @@
         },
         {
           "id": 2,
-          "title": "Estrutura da aplicação",
+          "title": "Node.js",
           "lessons": [
-            { "id": "pVichgT6pyo", "title": "teste", "duration": "13:45" },
-            { "id": "pVichgT6pyo", "title": "teste", "duration": "13:45" },
-            { "id": "pVichgT6pyo", "title": "teste", "duration": "13:45" },
-            { "id": "pVichgT6pyo", "title": "teste", "duration": "13:45" }
+            {
+              "id": "hHM-hr9q4mo",
+              "title": "Como sair do ZERO em Node.js",
+              "duration": "1:31:55"
+            },
+            {
+              "id": "XmcZyCRtHqw",
+              "title": "Criando APIs testáveis(Design Patterns)",
+              "duration": "1:14:08"
+            },
+            {
+              "id": "RO3l_xy7GeM",
+              "title": "Setup Completo para Projetos Node.js",
+              "duration": "40:50"
+            },
+            {
+              "id": "GVF--Rl3bP4",
+              "title": "Criando aplicação NODE JS do ZERO",
+              "duration": "1:42:03"
+            },
+            {
+              "id": "M6wLBpzSvqw",
+              "title": "Javascript & Node.js",
+              "duration": "2:31:54"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Dominando o Git",
+          "lessons": [
+            {
+              "id": "oj1EAWwiojM",
+              "title": "Config, Init e Clone",
+              "duration": "20:35"
+            },
+            {
+              "id": "qNzYDiQW7aw",
+              "title": "Alias, Status, Add, Commit...",
+              "duration": "20:40"
+            },
+            {
+              "id": "zCZG9sNec98",
+              "title": "Conventional Commits, Log e Tag",
+              "duration": "19:49"
+            },
+            {
+              "id": "dzSaKiRVRM4",
+              "title": "Reset e Revert",
+              "duration": "28:21"
+            },
+            {
+              "id": "vBZrpqYpvFs",
+              "title": "Rm, Clean e Checkout",
+              "duration": "26:00"
+            },
+            {
+              "id": "0MVXlGQe9nU",
+              "title": "Rebase Interativo",
+              "duration": "18:01"
+            }
           ]
         }
       ]

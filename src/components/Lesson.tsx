@@ -23,17 +23,17 @@ export function Lesson({
       onClick={handleclick}
       data-active={isCurrent}
       disabled={isCurrent}
-      className="flex items-center gap-3 text-base text-zinc-400 data-[active=true]:text-emerald-400 enabled:hover:text-zinc-100"
+      className="flex items-center gap-3 text-sm text-zinc-400 data-[active=true]:text-emerald-400 enabled:hover:text-zinc-100"
     >
       {isCurrent ? (
-        <PlayCircle className="h-4 w-4 text-emerald-400 lg:h-5 lg:w-5" />
+        <PlayCircle className="h-4 w-4 text-emerald-400" />
       ) : (
-        <Video className="h-4 w-4 text-zinc-500 lg:h-5 lg:w-5" />
+        <Video className="h-4 w-4 text-zinc-500" />
       )}
 
       <span>{title}</span>
 
-      <span className="ml-auto font-mono text-base text-zinc-500">
+      <span className="ml-auto font-mono text-sm text-zinc-500">
         {duration}
       </span>
     </button>
