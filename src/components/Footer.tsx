@@ -41,7 +41,7 @@ export function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaLinkedin className="text-[28px] duration-150 hover:text-emerald-400" />
+                    <FaLinkedin className="text-[28px] text-neutral-400 duration-150 hover:text-emerald-400" />
                   </a>
                 </li>
 
@@ -51,7 +51,7 @@ export function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaGithub className="text-[28px] duration-150 hover:text-emerald-400" />
+                    <FaGithub className="text-[28px] text-neutral-400 duration-150 hover:text-emerald-400" />
                   </a>
                 </li>
 
@@ -61,7 +61,7 @@ export function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaWhatsapp className="text-[28px] duration-150 hover:text-emerald-400" />
+                    <FaWhatsapp className="text-[28px] text-neutral-400 duration-150 hover:text-emerald-400" />
                   </a>
                 </li>
 
@@ -71,7 +71,7 @@ export function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaInstagram className="text-[28px] duration-150 hover:text-emerald-400" />
+                    <FaInstagram className="text-[28px] text-neutral-400 duration-150 hover:text-emerald-400" />
                   </a>
                 </li>
               </ul>
