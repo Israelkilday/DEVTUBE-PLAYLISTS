@@ -13,7 +13,9 @@ export function Header() {
   return (
     <div>
       <div className="flex flex-col gap-1">
-        <h2 className="text-2xl text-emerald-400">{currentLesson?.title}</h2>
+        <h2 className="text-xl text-emerald-400 lg:text-2xl">
+          {currentLesson?.title}
+        </h2>
 
         <span className="pb-3 text-base">
           PLAYLIST:{" "}

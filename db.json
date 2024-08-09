@@ -80,7 +80,7 @@
             },
             {
               "id": "XmcZyCRtHqw",
-              "title": "Criando APIs testáveis(Design Patterns)",
+              "title": "Criando APIs testáveis",
               "duration": "1:14:08"
             },
             {
@@ -133,6 +133,68 @@
               "id": "0MVXlGQe9nU",
               "title": "Rebase Interativo",
               "duration": "18:01"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Docker",
+          "lessons": [
+            {
+              "id": "q0xLKcV9j80",
+              "title": "Docker do Zero ao Deploy",
+              "duration": "3:06:12"
+            },
+            {
+              "id": "wpdcGgRY5kk",
+              "title": "Docker no WSL 2 sem Docker Desktop",
+              "duration": "24:19"
+            },
+            {
+              "id": "K1V0FVDdluY",
+              "title": "Aprenda Docker do Zero",
+              "duration": "1:13:35"
+            },
+            {
+              "id": "vBZrpqYpvFs",
+              "title": "Tutorial completo com deploy",
+              "duration": "44:14"
+            },
+            {
+              "id": "np_vyd7QlXk",
+              "title": "Curso de Docker para iniciantes",
+              "duration": "46:47"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Clean Architecture, SOLID e...",
+          "lessons": [
+            {
+              "id": "dQys-mnOtQg",
+              "title": "O que é Clean Architecture?",
+              "duration": "9:01"
+            },
+            {
+              "id": "iUQVZHzqGuc",
+              "title": "Clean Architecture no ReactJs",
+              "duration": "38:25"
+            },
+            {
+              "id": "LTb89krmBP0",
+              "title": "SOLID Principles & Design Patterns",
+              "duration": "20:49"
+            },
+            {
+              "id": "pzS2TrqwI4A",
+              "title": "2 SOLID Principles & Design Patterns",
+              "duration": "24:46"
+            },
+            {
+              "id": "vBZrpqYpvFs",
+              "title": "3 SOLID Principles & Design Patterns",
+              "duration": "41:41"
             }
           ]
         }
