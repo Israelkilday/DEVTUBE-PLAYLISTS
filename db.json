@@ -71,6 +71,37 @@
         },
         {
           "id": 2,
+          "title": "Typescript",
+          "lessons": [
+            {
+              "id": "ppDsxbUNtNQ",
+              "title": "TypeScript para Completos Iniciantes",
+              "duration": "1:22:38"
+            },
+            {
+              "id": "lCemyQeSCV8",
+              "title": " Typescript na prática",
+              "duration": "1:11:22"
+            },
+            {
+              "id": "iGn5iVBk3c8",
+              "title": "Utilizando Generics com TypeScript",
+              "duration": "21:50"
+            },
+            {
+              "id": "AbdTcB2Q_l0",
+              "title": "Intensivo TypeScript",
+              "duration": "2:24:16"
+            },
+            {
+              "id": "3CoBJmolf84",
+              "title": "React do zero e utilizando TypeScript",
+              "duration": "1:52:02"
+            }
+          ]
+        },
+        {
+          "id": 3,
           "title": "Node.js",
           "lessons": [
             {
@@ -101,7 +132,7 @@
           ]
         },
         {
-          "id": 3,
+          "id": 4,
           "title": "Dominando o Git",
           "lessons": [
             {
@@ -137,7 +168,7 @@
           ]
         },
         {
-          "id": 4,
+          "id": 5,
           "title": "Docker",
           "lessons": [
             {
@@ -168,7 +199,7 @@
           ]
         },
         {
-          "id": 5,
+          "id": 6,
           "title": "Clean Architecture, SOLID e...",
           "lessons": [
             {
