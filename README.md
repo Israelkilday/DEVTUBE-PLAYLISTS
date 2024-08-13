@@ -4,7 +4,7 @@
 
 <div align="center"><br>
 
-**_[DEVTUB PLAYLISTS](https://video-player-isarel-kildays-projects.vercel.app/)_** É uma plataforma de exibição de playlists com vídeos de programação selecionados do YouTube. Utilizando React, Vite, e Redux Toolkit, implementei uma interface dinâmica e intuitiva,  proporcionando aos usuários uma experiência fluida na navegação. Os vídeos são gerenciados por uma API personalizada que criei e armazenei no JSONPlaceholder. Este projeto foi uma excelente oportunidade para aprimorar minhas habilidades em desenvolvimento web full stack, incluindo o trabalho com APIs e gerenciamento de estado com Redux.
+**_[DEVTUB PLAYLISTS](https://devetube-playlists.vercel.app/)_** É uma plataforma de exibição de playlists com vídeos de programação selecionados do YouTube. Utilizando React, Vite, e Redux Toolkit, implementei uma interface dinâmica e intuitiva,  proporcionando aos usuários uma experiência fluida na navegação. Os vídeos são gerenciados por uma API personalizada que criei e armazenei no JSONPlaceholder. Este projeto foi uma excelente oportunidade para aprimorar minhas habilidades em desenvolvimento web full stack, incluindo o trabalho com APIs e gerenciamento de estado com Redux.
 
  </div>
 
@@ -98,7 +98,7 @@ Se você deseja contribuir com este projeto, siga estas etapas:
 
 ## 🔗 Link do Projeto
 
-https://video-player-isarel-kildays-projects.vercel.app/
+https://devetube-playlists.vercel.app/
 
 ## 🧠 Autor
 
