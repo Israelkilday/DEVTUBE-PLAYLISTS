@@ -45,6 +45,8 @@ https://github.com/user-attachments/assets/e62b9605-8d1e-4522-ac3b-1cf069be60b1
 - **_[ESLint](https://eslint.org/)_**
 - **_[Prettier](https://prettier.io/)_**
 - **_[Git](https://www.git-scm.com/)_**
+- **_[Json](https://www.alura.com.br/artigos/o-que-e-json?srsltid=AfmBOoonPgYWZgipvX0C88zvP30p00jehy5hiO-T_XiCz-hsGSQ8g2SR)_**
+- **_[Vite](https://vitejs.dev/)_**
 
 ## 💻 Como Rodar o Projeto
 
