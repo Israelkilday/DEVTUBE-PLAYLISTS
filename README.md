@@ -48,7 +48,7 @@ https://github.com/user-attachments/assets/e62b9605-8d1e-4522-ac3b-1cf069be60b1
 
 ## 💻 Como Rodar o Projeto
 
-1.  Clone o repositório: `git clone https://github.com/Israelkilday/VIDEO-PLAYER`
+1.  Clone o repositório: `git clone https://github.com/Israelkilday/DEVTUBE-PLAYLISTS`
 2.  Instale as dependências: `npm install`
 3.  Inicie o servidor de desenvolvimento:
 ```bash
