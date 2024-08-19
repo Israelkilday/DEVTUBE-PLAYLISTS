@@ -38,6 +38,7 @@ https://github.com/user-attachments/assets/60ab2960-8b2f-4e51-ab77-a9977539375a
 - **_[Redux Toolkit](https://redux-toolkit.js.org/)_**
 - **_[React Player](https://www.npmjs.com/package/react-player)_**
 - **_[React Icons](https://react-icons.github.io/react-icons/)_**
+- **_[Vitest](https://vitest.dev/)_**
 - **_[JSX](https://pt-br.legacy.reactjs.org/docs/introducing-jsx.html)_**
 - **_[TailwindCSS](https://tailwindcss.com/)_**
 - **_[Vercel](https://vercel.com/docs)_**
