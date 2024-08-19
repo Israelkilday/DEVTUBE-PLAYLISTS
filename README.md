@@ -28,6 +28,8 @@ https://github.com/user-attachments/assets/60ab2960-8b2f-4e51-ab77-a9977539375a
 - O gerenciamento de estado global do aplicativo é realizado com Redux Toolkit, garantindo a consistência e eficiência das operações do aplicativo.
 - [x] **_Navegação Fluida entre Playlists:_**
 - Usuários podem alternar entre diferentes playlists de maneira fluida, com transições suaves e carregamento rápido.
+- [x] **_Desenvolvimento de testes unitários com vitest :_**
+- Utilizei o Vitest para testar o comportamento do player slice no Redux, assegurando que as ações disparadas resultassem nas mudanças esperadas no estado da aplicação.
 - [x] **_Suporte a Vários Formatos de Vídeo:_**
 - O player de vídeo integrado suporta vários formatos de vídeo, proporcionando flexibilidade na reprodução de conteúdo do YouTube.
 
