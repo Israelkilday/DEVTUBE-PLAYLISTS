@@ -10,7 +10,7 @@
 
 ## 🎬 Vídeo do projeto
 
-https://github.com/user-attachments/assets/e62b9605-8d1e-4522-ac3b-1cf069be60b1
+https://github.com/user-attachments/assets/60ab2960-8b2f-4e51-ab77-a9977539375a
 
 ## ⚙️ Pré-requisitos
 
