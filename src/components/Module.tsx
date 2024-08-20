@@ -1,9 +1,10 @@
 import { ChevronDown } from "lucide-react";
 import { Lesson } from "./Lesson";
 import * as Collapsible from "@radix-ui/react-collapsible";
-import { useAppDispatch, useAppSelector } from "../store";
-import { play } from "../store/slices/player";
+// import { useAppDispatch, useAppSelector } from "../store";
+// import { play } from "../store/slices/player";
 import { useState, useRef, useEffect } from "react";
+import { useStore } from "../zustand-store";
 
 interface ModuleProps {
   title: string;
@@ -12,16 +13,23 @@ interface ModuleProps {
 }
 
 export function Module({ title, amountOfLesson, moduleIndex }: ModuleProps) {
-  const dispatch = useAppDispatch();
+  const { currentLessonIndex, currentModuleIndex, lessons, play } = useStore(
+    (store) => {
+      return {
+        lessons: store.courses?.modules[moduleIndex].lessons,
+        currentLessonIndex: store.currentLessonIndex,
+        currentModuleIndex: store.currentModuleIndex,
+        play: store.play,
+      };
+    },
+  );
 
-  const { currentModuleIndex, currentLessonIndex } = useAppSelector((state) => {
-    const { currentModuleIndex, currentLessonIndex } = state.player;
-    return { currentModuleIndex, currentLessonIndex };
-  });
+  // const dispatch = useAppDispatch();
 
-  const lessons = useAppSelector((state) => {
-    return state.player.courses?.modules[moduleIndex].lessons;
-  });
+  // const { currentModuleIndex, currentLessonIndex } = useAppSelector((state) => {
+  //   const { currentModuleIndex, currentLessonIndex } = state.player;
+  //   return { currentModuleIndex, currentLessonIndex };
+  // });
 
   const [isOpen, setIsOpen] = useState(moduleIndex === 0);
   const contentRef = useRef<HTMLDivElement>(null);
@@ -71,7 +79,7 @@ export function Module({ title, amountOfLesson, moduleIndex }: ModuleProps) {
                   key={lesson.id}
                   title={lesson.title}
                   duration={lesson.duration}
-                  onPlay={() => dispatch(play([moduleIndex, lessonIndex]))}
+                  onPlay={() => play([moduleIndex, lessonIndex])}
                   isCurrent={isCurrent}
                 />
               );

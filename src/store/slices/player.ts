@@ -4,7 +4,6 @@ import {
   createSlice,
   PayloadAction,
 } from "@reduxjs/toolkit";
-import { useAppSelector } from "..";
 import { api } from "../../lib/axiox";
 
 interface Courses {
@@ -86,14 +85,3 @@ export const playerSlice = createSlice({
 
 export const player = playerSlice.reducer;
 export const { play, next } = playerSlice.actions;
-
-export const useCurrentLesson = () => {
-  return useAppSelector((state) => {
-    const { currentModuleIndex, currentLessonIndex } = state.player;
-
-    const currentModule = state.player.courses?.modules[currentModuleIndex];
-    const currentLesson = currentModule?.lessons[currentLessonIndex];
-
-    return { currentModule, currentLesson };
-  });
-};

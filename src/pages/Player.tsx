@@ -1,23 +1,23 @@
 import { Header } from "../components/Header";
 import { Video } from "../components/Video";
 import { Module } from "../components/Module";
-import { useAppDispatch, useAppSelector } from "../store";
-import { loadCource, useCurrentLesson } from "../store/slices/player";
 import { useEffect } from "react";
 import Footer from "../components/Footer";
+import { useCurrentLesson, useStore } from "../zustand-store";
 
 export function Player() {
-  const dispatch = useAppDispatch();
-
-  const modules = useAppSelector((state) => {
-    return state.player.courses?.modules;
+  const { courses, load } = useStore((store) => {
+    return {
+      courses: store.courses,
+      load: store.load,
+    };
   });
 
   const { currentLesson } = useCurrentLesson();
 
   useEffect(() => {
-    dispatch(loadCource());
-  }, [dispatch]);
+    load();
+  }, [load]);
 
   useEffect(() => {
     if (currentLesson) {
@@ -55,8 +55,8 @@ export function Player() {
           </div>
 
           <aside className="bottom-0 right-0 top-0 divide-y-2 divide-zinc-900 overflow-hidden overflow-y-scroll border-l border-zinc-800 bg-zinc-900 scrollbar-thin scrollbar-track-zinc-950 scrollbar-thumb-zinc-800 md:absolute md:w-72 lg:w-96">
-            {modules &&
-              modules.map((module, index) => {
+            {courses?.modules &&
+              courses?.modules.map((module, index) => {
                 return (
                   <Module
                     key={module.id}
