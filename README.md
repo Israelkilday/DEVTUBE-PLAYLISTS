@@ -12,6 +12,10 @@
 
 https://github.com/user-attachments/assets/60ab2960-8b2f-4e51-ab77-a9977539375a
 
+## Fluxograma da aplicação
+
+![mermaid-diagram-2024-08-24-004512](https://github.com/user-attachments/assets/7ac9c11e-0ddb-4e14-91e5-90503db4f764)
+
 ## ⚙️ Pré-requisitos
 
 - **_React_** 
