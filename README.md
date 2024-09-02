@@ -1,4 +1,4 @@
-# ⏯ DEVTUBE PLAYLISTS
+ # ⏯ DEVTUBE PLAYLISTS
 
 <a name="readme-top"></a>
 
@@ -13,13 +13,8 @@
 https://github.com/user-attachments/assets/60ab2960-8b2f-4e51-ab77-a9977539375a
 
 ## Fluxograma da aplicação
-![Diagrama sem nome drawio (5)](https://github.com/user-attachments/assets/9b1d5762-26f4-4553-9d57-b36e2af3d928)
-
-![Diagrama sem nome drawio (4)](https://github.com/user-attachments/assets/31699943-76dc-4680-b215-ad25322c56bc)
 
 ![Diagrama sem nome drawio (3)](https://github.com/user-attachments/assets/ae41fabb-74c4-4caa-8b9a-7b976d334f4d)
-
-![mermaid-diagram-2024-08-24-004512](https://github.com/user-attachments/assets/7ac9c11e-0ddb-4e14-91e5-90503db4f764)
 
 ## ⚙️ Pré-requisitos
 
