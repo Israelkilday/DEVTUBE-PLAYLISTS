@@ -4,7 +4,7 @@
 
 <div align="center"><br>
 
-**_[DEVTUBE PLAYLISTS](https://devetube-playlists.vercel.app/)_** É uma plataforma de exibição de playlists com vídeos de programação selecionados do YouTube. Utilizando React, Vite, e Redux Toolkit, implementei uma interface dinâmica e intuitiva,  proporcionando aos usuários uma experiência fluida na navegação. Os vídeos são gerenciados por uma API personalizada que criei e armazenei no JSONPlaceholder. Este projeto foi uma excelente oportunidade para aprimorar minhas habilidades em desenvolvimento web full stack, incluindo o trabalho com APIs e gerenciamento de estado com Redux.
+**_[DEVTUBE PLAYLISTS](https://devetube-playlists.vercel.app/)_** É uma plataforma de exibição de playlists com vídeos de programação selecionados do YouTube. Utilizando React, Vite, e Zustand, implementei uma interface dinâmica e intuitiva,  proporcionando aos usuários uma experiência fluida na navegação. Os vídeos são gerenciados por uma API personalizada que criei e armazenei no JSONPlaceholder. Este projeto foi uma excelente oportunidade para aprimorar minhas habilidades em desenvolvimento web full stack, incluindo o trabalho com APIs e gerenciamento de estado com Zustand.
 
  </div>
 
@@ -18,8 +18,9 @@ https://github.com/user-attachments/assets/60ab2960-8b2f-4e51-ab77-a9977539375a
 
 ## ⚙️ Pré-requisitos
 
-- **_React_** 
-- **_React-Redux_** 
+- **_Node.js_** 
+- **_Vite_** 
+- **_Git_** 
 - **_npm_** (v6.0.0 ou superior)
 
 ## 🚀 Principais Funcionalidades:
@@ -28,7 +29,7 @@ https://github.com/user-attachments/assets/60ab2960-8b2f-4e51-ab77-a9977539375a
 - Interface desenvolvida com `React` + `Tailwind`, proporcionando uma navegação rápida e uma experiência de usuário otimizada em diferentes dispositivos.
 - [x] **_Integração com API Personalizada:_**
 - Os vídeos das playlists são acessados por meio de uma API personalizada, que se conecta ao JSONPlaceholder para o armazenamento e recuperação dos dados. 
-- [x] **_Gerenciamento de Estado com Redux Toolkit:_**
+- [x] **_Gerenciamento de Estado com Zustand:_**
 - O gerenciamento de estado global do aplicativo é realizado com Redux Toolkit, garantindo a consistência e eficiência das operações do aplicativo.
 - [x] **_Navegação Fluida entre Playlists:_**
 - Usuários podem alternar entre diferentes playlists de maneira fluida, com transições suaves e carregamento rápido.
@@ -41,7 +42,7 @@ https://github.com/user-attachments/assets/60ab2960-8b2f-4e51-ab77-a9977539375a
 
 - **_[Typescript](https://www.typescriptlang.org/)_**
 - **_[React.js](https://pt-br.legacy.reactjs.org/)_**
-- **_[Redux Toolkit](https://redux-toolkit.js.org/)_**
+- **_[Zustand](https://zustand-demo.pmnd.rs/)_**
 - **_[React Player](https://www.npmjs.com/package/react-player)_**
 - **_[React Icons](https://react-icons.github.io/react-icons/)_**
 - **_[Vitest](https://vitest.dev/)_**
