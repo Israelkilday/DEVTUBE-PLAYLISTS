@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/60ab2960-8b2f-4e51-ab77-a9977539375a
 - [x] **_Integração com API Personalizada:_**
 - Os vídeos das playlists são acessados por meio de uma API personalizada, que se conecta ao JSONPlaceholder para o armazenamento e recuperação dos dados. 
 - [x] **_Gerenciamento de Estado com Zustand:_**
-- O gerenciamento de estado global do aplicativo é realizado com Redux Toolkit, garantindo a consistência e eficiência das operações do aplicativo.
+- O gerenciamento de estado global do aplicativo é realizado com Zustand, garantindo a consistência e eficiência das operações do aplicativo.
 - [x] **_Navegação Fluida entre Playlists:_**
 - Usuários podem alternar entre diferentes playlists de maneira fluida, com transições suaves e carregamento rápido.
 - [x] **_Desenvolvimento de testes unitários com vitest :_**
