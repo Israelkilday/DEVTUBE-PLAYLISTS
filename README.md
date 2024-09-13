@@ -47,7 +47,7 @@ https://github.com/user-attachments/assets/60ab2960-8b2f-4e51-ab77-a9977539375a
 - **_[React Icons](https://react-icons.github.io/react-icons/)_**
 - **_[Radix UI](https://www.radix-ui.com/)_**
 - **_[Vitest](https://vitest.dev/)_**
-- **_[JSX](https://pt-br.legacy.reactjs.org/docs/introducing-jsx.html)_**
+- **_[Axios](https://axios-http.com/ptbr/docs/intro)_**
 - **_[TailwindCSS](https://tailwindcss.com/)_**
 - **_[Vercel](https://vercel.com/docs)_**
 - **_[Husky](https://www.freecodecamp.org/portuguese/news/como-adicionar-hooks-de-commit-ao-git-com-husky-para-automatizar-tarefas/)_**
